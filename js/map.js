@@ -418,6 +418,33 @@ getMarkerIcon(iconName) {
             <path d="M12 2l8 3v6c0 5-3 9-8 11-5-2-8-6-8-11V5z"/>
             <path d="M8 12l3 3 5-6"/>
         `,
+                specialNeedsShelter: `
+            <path d="M3 11L12 3l9 8"/>
+            <path d="M5 10v11h14V10"/>
+            <path d="M10 13h4"/>
+            <path d="M12 11v4"/>
+        `,
+
+        sandbag: `
+            <path d="M7 7h10"/>
+            <path d="M8 7c0-2 1.5-4 4-4s4 2 4 4"/>
+            <path d="M7 7c-1 3-2 6-2 9 0 3 3 5 7 5s7-2 7-5c0-3-1-6-2-9"/>
+            <path d="M8 14h8"/>
+        `,
+
+        volunteer: `
+            <circle cx="8" cy="8" r="3"/>
+            <circle cx="16" cy="8" r="3"/>
+            <path d="M3 21c0-4 2-7 5-7s5 3 5 7"/>
+            <path d="M11 21c0-4 2-7 5-7s5 3 5 7"/>
+        `,
+
+        donation: `
+            <path d="M4 10h16v11H4z"/>
+            <path d="M4 10l4-5h8l4 5"/>
+            <path d="M12 3v10"/>
+            <path d="M9 10l3 3 3-3"/>
+        `,  
 
         default: `
             <circle cx="12" cy="12" r="3"/>
