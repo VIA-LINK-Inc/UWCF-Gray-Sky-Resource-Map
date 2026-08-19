@@ -11,7 +11,7 @@ const CONFIG = {
     name: "UWCF",
     mapTitle: "UWCF Gray Sky Resource Map",
     demoMapTitle: "DEMO - UWCF Gray Sky Resource Map",
-    brandColor: "#087DC1"
+    brandColor: "#005291"
 },
 
     // Google Maps configuration
