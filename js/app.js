@@ -181,45 +181,8 @@ function initializeFilterButtons() {
         return;
     }
 
-    const preferredCategoryOrder =
-    CONFIG.resourceCategories?.order ?? [];
-
-    const categories =
-        window.resourceManager.getCategories();
-
-    /*
-     * Known categories follow our preferred order.
-     */
-    const knownCategories =
-        preferredCategoryOrder.filter(
-            (category) =>
-                categories.includes(category)
-        );
-
-    /*
-     * Any category we did not predefine still works.
-     * Unknown categories appear alphabetically after
-     * the known categories.
-     */
-    const unknownCategories =
-        categories
-            .filter(
-                (category) =>
-                    !preferredCategoryOrder.includes(
-                        category
-                    )
-            )
-            .sort(
-                (firstCategory, secondCategory) =>
-                    firstCategory.localeCompare(
-                        secondCategory
-                    )
-            );
-
-    const orderedCategories = [
-        ...knownCategories,
-        ...unknownCategories
-    ];
+   const orderedCategories =
+    window.resourceManager.getCategories();
 
     container.innerHTML = "";
 
