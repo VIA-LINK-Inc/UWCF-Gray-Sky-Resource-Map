@@ -87,5 +87,3 @@ This project is being built with the following principles:
 VIA LINK
 
 Primary Developer: Jack Bigelow
-
-Project Assistance: OpenAI ChatGPT
